@@ -29,6 +29,7 @@ Notice the two params of the function. `context` is the webtask Context object. 
 
 ## Run the Webtask
 
+- Make sure the value of the `hello` object is set to `context.data.name`. Some templates still show `context.body.name` which is an old format.
 - Click on the `play` button which will bring up the runner. 
 - Click `Run`. 
  
